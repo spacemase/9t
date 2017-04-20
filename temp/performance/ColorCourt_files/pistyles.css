@@ -1,0 +1,126 @@
+body {color: #000;}
+
+/* links */
+a {text-decoration: none;}
+
+/* main text styles */
+.vgray {	color: #333333;	font-size: 12px; font-family: Verdana, sans-serif;}
+.vgraysmall {	color: #333333; font-size: 10px; font-family: Verdana, sans-serif;}
+.vgrayHL {	color: #333333; font-size: 12px; font-family: Verdana, sans-serif; line-height: 1.4em;}
+.vgraysmallHL {	color: #333333; font-size: 11px; font-family: Verdana, sans-serif; line-height: 1.4em;}
+.vgraysmallHL2  p {	color: #333333; font-size: 11px; font-family: Verdana, sans-serif; margin: 6px 0 2px 0;}
+
+/* article styles */
+.rddateline {	font: 10px Arial, sans-serif; margin-top: -5px; margin-bottom: -8px;}
+.rdheadline {	font: bold 16px Verdana, sans-serif;}
+.rddeckline {	font: bold 11px Verdana, sans-serif;}
+.rdbyline {	font: 10px Verdana, sans-serif; margin-top: -3px;}
+#abovestory {margin-top: 15px; clear: both;}
+
+/* photo styles */
+.caption {	font: 11px Arial, sans-serif; line-height: 1.1em;}
+.credit { 	font: 10px Arial, sans-serif; line-height: 1.1em; color: #666666;}
+.creditfull {font: 11px Arial, sans-serif; line-height: 1.1em; color: #666666; text-align: right; padding-bottom: 3px;}
+
+/* headline styles */
+.medhed {	font: bold 14px Tahoma,Verdana, sans-serif;}
+.subhed {	font: bold 17px Tahoma,Verdana, sans-serif;}
+.bighed {	font: bold 19px Tahoma,Verdana, sans-serif;}
+.majorhed {	font: bold 28px Tahoma,Verdana, sans-serif;}
+
+/* misc styles */
+.promo {	font: 10px Verdana, sans-serif; line-height: 1.1em;}
+.graydate { font: bold 11px Verdana,sans-serif; color: #999999; }
+.bulletin {	font: bold 10px Verdana,sans-serif; color : #9C0000;}
+.bulletinb {	font: bold 10px Verdana,sans-serif; color : #333333;}
+.dropdown {	font: 10px Arial, sans-serif;}
+input.search {	font: 10px Arial, sans-serif;}
+p.wing {	margin-top: 13px; margin-bottom: 3px;}
+.hang { text-indent: -8px; margin: 0 0 0 8px; }
+.squeeze {letter-spacing: -0.04em;}
+.source { font: 10px Verdana,sans-serif; color: #666;}
+
+/* old styles */
+.headline {	font: bold 18px Arial, sans-serif;}
+.deckline {	font: bold 13px Arial, sans-serif;}
+.dateline {	font: italic 13px Arial, sans-serif;}
+.byline {	font: 13px Arial, sans-serif;}
+.feather {	font: 10px Arial, sans-serif;}
+.summary {	font: 13px Arial, sans-serif;}
+.list {		font: 12px Arial, sans-serif;}
+
+#pollArticle {margin-top: 12px; border-bottom: 1px solid #c4d5da; border-left: 1px solid #c4d5da;}
+#pollArticle td {background: #f4f4f4; font: 10px Verdana,sans-serif; padding: 4px 4px 0 4px;}
+#pollArticle td.pollQ {font-weight: bold; }
+#pollArticle td.pollTab {padding: 0; }
+#pollArticle td.pollB  {padding: 0 4px 4px 0; }
+
+#mostpopular {font: 10px verdana,sans-serif; margin: 12px 0 20px 0; color: #333;}
+#mostpopular p {margin: 7px 0;}
+#mostpopulartext {background: #F0F0E0; padding: 4px; border-right: 2px solid #ADADAD; border-left: 2px solid #ADADAD; border-bottom: 6px solid #ADADAD;}
+
+/* shop, classified box */
+#class_shop, #class_shop td {font: 10px Verdana, sans-serif; color: #333;}
+#shopbar, #classbar {clear: both;}
+#shopbar td, #classbar td {background: #A7C6D5; font: 10px Verdana,sans-serif; height: 15px; color: #036;}
+#shopbar td a, #classbar td a {color: #036;}
+#shopbox1, #classbox1 {background: #fff; border-right: 1px solid #ccc; border-left: 1px solid #ccc; font-size: 10px;}
+#classbox1 {border-bottom: 1px solid #ccc; }
+#marketholder {padding-bottom: 16px;}
+#mptitle {  background-image: url(/art2/lines/mpbdot_tab.gif); background-repeat: no-repeat; padding: 0 0 0 12px; font: bold 10px/14px Verdana,sans-serif;  color: #036;}
+#marketplace {border-left: 2px solid #a7c6d5; border-right: 2px solid #a7c6d5; border-bottom: 2px solid #a7c6d5; background: #fff;}
+#marketplace td {font: 9px verdana,sans-serif; padding: 4px 4px 4px 5px;  background: #f5f4f0;}
+#marketplace td.mps {padding: 0; }
+#marketplace td.mpspacer {padding: 0; background: #01649C;}
+#marketplace a {color: #069;}
+
+/* soundoff */
+#soundoff {clear: both; margin: 20px 0;}
+#soheader {background-image: url(/art2/soundoff/toptab.jpg); padding-top: 27px; background-repeat: no-repeat;}
+#sofooter {background-image: url(/art2/soundoff/bottomtab.jpg); padding-top: 10px;  background-repeat: no-repeat;}
+#soq {background-image: url(/art2/soundoff/grad.jpg); font: bold 11px verdana,sans-serif; color: #333; padding: 8px 0;  background-repeat: repeat-y;}
+#soqi {padding-left: 37px; padding-right: 12px; }
+#soqc {padding: 8px 12px 0 27px; clear: both;}
+#soq a {font-size: 10px; color: #004386;}
+
+/* mypi */
+#nomypi {background: #fff; padding-left: 50px; }
+#nomypi a {font: bold 10px verdana,sans-serif; color: #999;}
+#mypi {position: absolute; top: 1px; left: 775px; background: #5672A2; background-image: url(/art2/mypi/logo.gif); background-repeat: no-repeat; width: 185px;}
+#mypi .altpkey {margin: 5px 5px 8px 5px; font: 10px verdana,sans-serif; color: #f4f4f4;}
+#mypi #mypilogo {height: 57px;}
+#mypi .mycust {font: bold 10px verdana,sans-serif; padding: 8px 0 13px 103px; line-height: 120%;}
+#mypi .mycust a {color: #fff;}
+#mypi .mypitile {margin: 5px 5px 15px 5px; border: 1px solid #999; background: #fafafa;}
+#mypi .altplat {float: right; margin: 3px 1px 1px 0;}
+#mypi .altplat img {margin-left: 3px;}
+#mypi .mypititle {font: bold 10px verdana,sans-serif; color: #4b4b4b; padding: 2px 4px; }
+#mypi .mypititle a {color: #333; text-decoration: none;}
+#mypi .mypititle a:hover {color: #c03;}
+#mypi .hlblock { font: 10px verdana,sans-serif; color: #333; padding: 0 3px 2px 3px; }
+#mypi .hlblock .wh {padding-top: 5px;}
+#mydisable {padding: 0 5px 7px 5px; font: bold 10px verdana,sans-serif;}
+#mydisable a {color: #fff; }
+#mypi .mycust a:hover, #mydisable a:hover {color: #ff6;}
+
+/* css wing */
+#wingcss, #wingcss td {font: 10px verdana,sans-serif;}
+#wingcss .wingheader {background-image: url(http://www.seattlepi.com/art2/wingtab159.gif); background-repeat: no-repeat; color: #333333; font: bold 10px/10px Verdana,sans-serif; height: 15px; padding: 2px 0 0 4px;}
+#wingcss p {margin: 3px 0 11px 0;}
+
+/* corrections */
+#correction {font: 11px verdana,sans-serif; padding: 0 24px 0 14px;}
+#corrections {font: 11px verdana,sans-serif; padding: 0 24px 0 14px;}
+
+#related {width: 202px; float: left; margin-bottom: 12px; font: 11px verdana,sans-serif;}
+#relatedlabel {margin-right: 12px; border-top: 1px solid #878791; border-right: 1px solid #878791; padding-top: 1px;}
+#reviewboxlabel { color: #fff; background: #3A4A56; background-image: url(/art2/reviewbox.gif); background-repeat: no-repeat; font: bold 10px verdana,sans-serif; padding: 2px 0 2px 18px; margin-right: 1px;}
+#relatedbox {margin-right: 12px; padding: 0 5px; border-right: 1px solid #878791; border-bottom: 1px solid #878791;}
+#relatedbox p {margin: 0; padding: 6px 0;}
+#relatedbox .line {border-top: 1px solid #BFC3C6;}
+
+#piStorytext a {text-decoration: underline;}
+#related a, #piStory .credit a, #piStory .creditfull a, #piStory .reviewbox a {text-decoration: none;} 
+#classbox {margin-top: 15px; border-top: 1px solid #11476e;}
+
+.profilethumb {float: left; margin: 0 8px 8px 0;}

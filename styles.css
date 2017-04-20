@@ -1,0 +1,275 @@
+
+#MainMenu
+{
+  height:33px;
+  background:#fff;
+  border:0;
+  margin:0 0 0 0px
+}
+#tab
+{
+  top:0;
+  height:0;
+  background:repeat-x top;
+  margin:0;
+}
+#tab ul
+{
+  list-style:none;
+  float:left;
+  margin:0;
+  padding:0;
+}
+#tab li
+{
+  display:inline;
+  float:left;
+  margin:0;
+  padding:0;
+}
+#tab a
+{
+  background:#fff;
+  text-decoration:none;
+  border:0;
+  display:block;
+  float:left;
+  margin:0;
+  padding:0;
+}
+#tab a span
+{
+  display:block;
+  font-family:Helvetica, Arial, "Trebuchet MS", sans-serif;
+  font-size:12px;
+  color:#000;
+  font-weight:700;
+  line-height:33px;
+  padding:0 15px;
+}
+#tab a:hover,#tab li.item_active a
+{
+  background:#ff9900;
+  border-color:#FF9300;
+}
+#tab a:hover span,#tab li.item_active a span
+{
+  color:#FFF;
+  font-weight:700;
+  font-style:normal;
+  text-decoration:none;
+}
+
+body
+{
+  font-family: Helvetica, Arial, "Trebuchet MS", sans-serif ;
+  font-size: 14px ;
+}
+
+#container
+{
+  margin: 0 auto 0 auto ;
+  width: 720px ;
+}
+
+#header
+{
+  background-image: ("header.jpeg") ;
+  height: 100px ;
+  border-bottom: 1px #888897 solid ;
+}
+
+#content
+{
+  border-top: 1px #888897 solid ;
+}
+
+#footer
+{
+  background-color: #888897 ;
+  text-align: center ;
+  font-size: 12px ;
+  color: white ;
+  padding: 4px 0 4px 0 ;
+}
+
+#copyright
+{
+  font-size: 80% ;
+  margin: 0 auto 0 auto ;
+  text-align: center ;
+}
+
+#content h1
+{
+  font-size: 100px ;
+  font-family: "Century Gothic", Verdana, Helvetica, Arial, sans-serif ;
+  letter-spacing: -0.05em ;
+  margin: -20px 0 5px 0 ;
+  padding: 0px ;
+  font-weight: normal ;
+  text-transform: uppercase ;
+  color: #888897 ;
+  text-align: center ;
+}
+
+#lines{
+    width:250px;
+    float:right;
+}
+
+#current-issue{
+	margin-top:10px;
+	font-size:80%;
+	text-transform:uppercase;
+	font-family:Courier New, Courier, monospace
+}
+
+.contactBox{
+    border:5px #000 solid;
+    width:200px;
+    height:75x;
+    padding:10px;
+    margin-left:30px;
+    font-size:11px;
+    display:block;
+}
+
+.writersAbout{
+  border:1px #888897 dotted;
+  width:290px;
+  margin: 0px 30px 10px 30px;
+  padding:0px 10px 10px 10px;
+  background-position:50% 27px;
+  background-repeat:no-repeat;
+}
+
+.writerInfo{
+  padding-top:215px;
+}
+
+.dadaScopeEntry{
+ border:1px #888897 dotted;
+ padding:10px;
+ margin-bottom:30px;
+}
+
+.dadaLabel{
+	margin-top:-40px;
+	color:#ff9900;
+	font-size:30px;
+}
+
+.dadaLabelLeft{
+	float:right;
+	margin-top:-30px;
+	color:#888897;
+	font-size:18px;
+}
+
+/********************
+*            REVIEWS                *
+********************/
+
+.story img
+{
+ padding:3px;
+ border:1px #000 solid;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ background:#ff9900;
+}
+
+#maniRightBox{
+	float:right;
+	width:200px;
+	padding:0 0 15px 10px;
+	border-left:1px #000 dotted;
+	margin-left:10px;
+}
+
+#maniRightBox ul
+{
+    list-style:none;
+    float:left;
+    margin:0;
+    padding:0;
+}
+#maniRightBox li
+{ 
+    margin:0;
+    padding:0;
+}
+
+#maniRightBox a{
+	text-decoration:none;
+	color:#000;
+	border-bottom:1px #000 dotted;
+}
+
+/*
+.dropmenudiv
+{
+    position:absolute;
+    top:0;
+    float:left;
+    display:block;
+    visibility:hidden;
+    border:0 #000;
+    background:#ff9900;
+    color:#000;
+    z-index:100;
+    text-decoration:none;
+    padding:0;
+}
+.dropmenudiv ul
+{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.dropmenudiv li
+{
+    display:inline;
+    margin:0;
+    padding:0;
+}
+.dropmenudiv a:link,.dropmenudiv a:visited
+{
+    width:180px;
+    display:block;
+    border:0;
+    color:#000;
+    background:#ff9900;
+    font-weight:700;
+    font-style:normal;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+.dropmenudiv a span
+{
+    display:block;
+    line-height:33px;
+    font-family:Helvetica, Arial, Tahoma, Verdana, "Trebuchet MS", sans-serif;
+    font-size:12px;
+    color:#000;
+    float:none;
+    padding:0 15px;
+}
+.dropmenudiv a:hover
+{
+    border:0 #FF9300;
+    background:#ff9900;
+    font-weight:400;
+    font-style:normal;
+    text-decoration:none;
+    color:#FFF;
+}
+.dropmenudiv a:hover span
+{
+    background:#ff9900;
+    color:#FFF;
+}
+*/

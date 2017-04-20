@@ -1,0 +1,266 @@
+/* link colors */
+a.link {	color: #004386;}
+
+a.visited {	color: #895eab;}
+
+a:hover {	color: #FF0000;}
+
+/* nav links */
+a.jumpto, a.jumpto:visited {	color: #FFFFFF;
+		font: bold 10px Verdana, sans-serif;}
+
+a.jumpto:hover {color: #FF6666;}
+
+a.anavgray, a.anavgray:link, a.anavgray:visited {	color: #4B4B4B;
+		font: bold 10px Verdana, sans-serif;
+		text-decoration: none;}
+
+a.anavhigh, a.anavhigh:visited {	color: #4B4B4B;
+		font: 10px Verdana, sans-serif;
+		text-decoration: none;}
+
+a.anavhigh:hover {color: #FF0000;}
+
+a.anavmp, a.anavmp:visited {	color: #006699;
+		font: bold 10px Verdana, sans-serif;
+		text-decoration: none;}
+
+/* affiliate box */
+td.aff {	background: #669900;
+		color: #FFFFFF;
+		font: bold 10px Verdana,sans-serif;
+		height: 14px;
+		text-align: center;}
+
+td.aff2 {	border: 1px solid #669900; padding: 1px; text-align: center;}
+
+
+/* navigation and top */
+#menu {margin: 0;}
+#menu ul {margin: 0; padding: 0; list-style-type: none;}
+#menu ul li { display: block;  background: #e1ece1; font: bold 10px/14px Verdana, sans-serif; padding: 0 0 0 3px; margin: 0;}
+#menu ul li.header { background: #7a919c; color: #fff; font-size: 9px; }
+#menu ul li.headerfind { background: #a7c6d5; color: #036; font-size: 9px;}
+#menu ul li.high {background: #cfddd3;}
+#menu ul li.sub {padding-left: 11px; background: #cfddd3;}
+#menu ul li.sub2 {padding-left: 19px; background: #cfddd3;}
+#menu ul li.spacer, #menu ul li.spacerfind {height: 12px;}
+#menu ul li.sub a,#menu ul li.sub2 a {color: #4b4b4b; font-weight: normal;}
+#menu ul li a { color: #4b4b4b; }
+#menu ul li.submp a { color: #069; }
+#menu ul li.submp .mp {font-size: 9px;}
+
+
+/* old nav */
+td.jumpbar {	color: #A7C6D5;
+		font: bold 10px Verdana,sans-serif;}
+
+td.navheader {	background: #7A919C;
+		color: #FFFFFF;
+		font: bold 9px Verdana,sans-serif;
+		height: 15px;}
+
+td.navheadermp {background: #A7C6D5;
+		color: #003366;
+		font: bold 9px Verdana,sans-serif;
+		height: 15px;}
+
+td.nav {	background: #E1ECE1;
+		font: 12px Verdana,sans-serif;}
+
+td.navhigh {	background: #CFDDD3;
+		font: 12px Verdana,sans-serif;}
+
+.vwhitesmall {	color: #FFFFFF;
+		font: bold 10px Verdana,sans-serif;}
+.jumptotext {   color: #CFDDD3;
+		font: bold 10px Verdana,sans-serif;}
+
+/* wing */
+td.wingheader {	background-image: url("http://www.seattlepi.com/art2/wingtab139.gif");
+		background-repeat: no-repeat;
+		color: #333333;
+		font: bold 10px Verdana,sans-serif;}
+
+td.wingheaderR {	background-image: url("http://www.seattlepi.com/art2/wingtab159.gif");
+		background-repeat: no-repeat;
+		color: #333333;
+		font: bold 10px Verdana,sans-serif;}
+
+/* content styles */
+td.bar {	background-image: url("http://www.seattlepi.com/art2/bar_bg.gif");
+		color: #333333;
+		font: bold 10px Verdana,sans-serif;}
+
+td.datebar {	background-image: url("http://www.seattlepi.com/art2/bar_bg2.gif");
+		color: #333333;
+		font: bold 10px Verdana,sans-serif;}
+
+td.promob {	background: #CCD5DA;
+		color: #333333;
+		font: bold 11px Verdana,sans-serif;
+		text-align: center;}
+
+/* page footer */
+#pifooter {clear: both; width: 770px; position: relative; margin: 17px 0; border-top: 1px solid #bababa; text-align: center;}
+#footernav {background: #cfddd3; color: #7A919C; font: 10px/10px verdana,sans-serif; padding: 2px 0;}
+#footernav a { color: #4B4B4B; font: bold 10px Verdana, sans-serif; text-decoration: none;}
+#footertab {background: #6f8b86; background-image: url(http://www.seattlepi.com/art2/cnr_footer.gif); background-repeat: no-repeat; background-position: top right;}
+#footerinfo {font: 10px verdana,sans-serif; color: #333; padding-top: 12px;}
+
+td.adbar {	background: #E1ECE1;}
+td.footer {	background: #6f8b86;}
+td.footerbar {	background: #cfddd3;}
+
+td.footerline {	background: #BABABA;}
+
+.slash {	font: 10px Verdana, sans-serif;
+		color: #7A919C;}
+/* war */
+
+td.warheader {	background-image: url("/iraq2003/images/226x14hdr_tmp.gif");
+		background-repeat: no-repeat;
+		color: #ffffff;
+		font: bold 9px Verdana,sans-serif;}
+
+/* main well */
+
+#apheadlines {border-top: 1px dashed #999; border-bottom: 1px dashed #999;}
+#apbox {margin: 3px 0; background: #f5f5f5; padding: 2px 2px 8px 2px; font: 12px Arial, sans-serif;}
+#apbox .aptitle {font: bold 10px Verdana, sans-serif; color: #666;}
+#apbox .apheadlist {line-spacing: 130%;}
+
+
+
+
+
+
+a.awingheader {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+	line-height : 15px;
+	color : #FFFFFF;
+	text-align: center;
+}
+
+a.awingheader:hover {
+	color: #FFFFCC;
+}
+
+a.awingtools {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333300;
+}
+
+a.awingtools:hover {
+	color: #777733;
+}
+
+td.tdhead {
+	background: #DFDFCC;
+}
+
+
+td.tdnav {
+	background: #CCCC99;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	line-height: 14px;
+}
+
+td.tdnavhigh {
+	background: #F5F5CC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	line-height: 14px;
+	}
+
+td.tdnavbottom {
+	background: #CCCC99;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	line-height: 8px;
+	}
+
+td.tdnavcolumn {
+	background: #F6F6EE;
+}
+
+td.tdsearch {
+	background: #CC0033;
+	text-align: center;
+}
+
+td.tdwing {
+	background: #DDDDCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333300;
+}
+
+td.tdwingsmall{
+	background: #DDDDCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333300;
+}
+
+td.tdwingheader {
+	background: #666633;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+	line-height : 16px;
+	color : #FFFFFF;
+	text-align: center;
+}
+
+
+
+
+.footer{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.hlist 	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	}
+.glist 	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 13px;
+	}
+
+.twing {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333300;
+}
+
+td.service {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333300;
+}
+
+
+.review {
+	background: #6f8b86;
+	color: #FFFFFF;
+	font: bold 10px Verdana, sans-serif;
+
+}
+
+.reviewbox {
+	background: #f7f7f5;
+	font: 10px Verdana, sans-serif;
+	color: #333333;
+	padding: 6px;
+	border-left: 1px solid #6f8b86;
+	border-bottom: 1px solid #6f8b86;
+}
